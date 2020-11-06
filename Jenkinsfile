@@ -14,7 +14,7 @@ pipeline {
     stage('Building our image') { 
       steps { 
         script { 
-          artifactName = "hello-docker-" + ":$BUILD_NUMBER" 
+          artifactName = "hello-docker-$BUILD_NUMBER" 
         }
       } 
     }
