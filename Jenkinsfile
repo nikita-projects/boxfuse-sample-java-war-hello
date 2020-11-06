@@ -1,15 +1,5 @@
 pipeline {
-  parameters {
-    choice(name: 'maven_version', choices: ['3.6.3-jdk-11', '3.6.3-jdk-11-openj9'], description: 'Maven version')
-  }
-  agent {
-      docker {
-          image "maven:${params.maven_version}"
-          args "--user root"
-          alwaysPull true
-          label 'slave'
-      }
-  }
+  agent { dockerfile true }
   stages {
     stage('Building image') {
       steps{
