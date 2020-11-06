@@ -4,7 +4,7 @@ pipeline {
     stage('Building image') {
       steps{
         script {
-          sh "sudo mvn package"
+          sh "mvn package"
         }
       }
     }
