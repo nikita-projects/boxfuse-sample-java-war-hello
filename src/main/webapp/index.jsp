@@ -1,6 +1,7 @@
 <html>
 <head>
-    <title>TEST BUILD</title>
+    <title>Final work</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
 </head>
 <body style="text-align: center">
 <h1>Hi, LevelUP Team!</h1>
