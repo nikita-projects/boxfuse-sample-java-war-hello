@@ -1,0 +1,86 @@
+html {
+  background-color: #000;
+  font-family: 'Lucida Console', Monaco, monospace;
+  font-style: normal;
+  font-size: 16px;
+  color: #fff;
+}
+body {
+  width: 1000px;
+  margin: 0 auto;
+}
+a:visited,
+a:active,
+a:link {
+  text-decoration: none;
+  color: #999;
+}
+a:hover {
+  text-decoration: none;
+  color: #59d600;
+}
+p {
+  color: #999;
+}
+h1, h2 {
+  text-align: left;
+  font-weight: 400;
+  font-size: 2em;
+}
+hr {
+  border: none;
+  color: #999;
+  background-color: #999;
+  height: 1px;
+}
+#site_name {
+  text-align: left;
+  color: #59d600;
+}
+nav {
+  margin: 1em;
+}
+nav a {
+  margin-right: 1em;
+}
+ul {
+  padding: 0;
+  margin-left: 20px;
+}
+li.none {
+  list-style-type: none;
+}
+#current_page {
+  color: white;
+}
+.content {
+  width: 70%;
+  min-height: 720px;
+  margin: 0 0 0 300px;
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 50%;
+}
+.center {
+  text-align: center;
+}
+.code {
+  color: #59d600;
+  text-indent: 1em;
+}
+.news {
+  margin: 0;
+  padding: 0;
+}
+.question {
+  color: white;
+}
+.answer {
+  padding-left: 20px;
+}
+footer {
+  bottom: 0;
+  text-align: right;
+  margin-right: 100px;
+  padding: 20px 0 0 0;
+}
